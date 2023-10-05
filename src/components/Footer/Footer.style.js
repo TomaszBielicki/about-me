@@ -10,9 +10,22 @@ export const Wrapper = styled.div`
   margin-top: 30px;
 `;
 
-export const Text = styled.p``;
+export const ButtonsWrapper = styled.div`
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+`;
+
+export const Text = styled.p`
+  text-align: center;
+  width: 200px;
+`;
 
 export const SocialsLink = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid white;
   border-radius: 50%;
   width: 50px;
