@@ -28,14 +28,13 @@ function NavBar() {
               alt="avatarImg"
             />
           </AvatarWrapper>
+          <ImgWrapper>
+            <DeskImg
+              src="https://mattfarley.ca/img/hero-devices.svg"
+              alt="deskImg"
+            />
+          </ImgWrapper>
         </MainPageWrapper>
-
-        <ImgWrapper>
-          <DeskImg
-            src="https://mattfarley.ca/img/hero-devices.svg"
-            alt="deskImg"
-          />
-        </ImgWrapper>
       </Wrapper>
     </>
   );

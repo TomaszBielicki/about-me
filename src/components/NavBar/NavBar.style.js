@@ -9,17 +9,18 @@ export const Wrapper = styled.div`
   font-family: "eurostile", sans-serif;
   text-align: center;
   width: 100vw;
-  //height: 100vh;
+  height: 120vh;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: white;
 `;
 export const MainPageWrapper = styled.div`
-  height: 100vh;
+  /* height: 100vh; */
 `;
 export const ImgWrapper = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 20vh;
   border-bottom: 3px solid white;
 `;
 
