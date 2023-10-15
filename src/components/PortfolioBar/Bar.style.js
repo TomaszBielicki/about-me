@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Tile = styled.div`
   border: 2px solid white;
-  width: 25vw;
+  width: 300px;
   border-radius: 10px;
   text-align: center;
   padding: 10px;
+  height: 500px;
 `;
 
 export const BarWrapper = styled.div`
@@ -15,8 +16,10 @@ export const BarWrapper = styled.div`
   justify-content: center;
   gap: 15px;
 `;
-export const WlabadiMainPageImage = styled.img`
-  width: 25vw;
+export const BarImg = styled.img`
+  max-width: 300px;
+  height: 200px;
+  border-radius: 10px;
 `;
 
 export const Title = styled.h1``;

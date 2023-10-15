@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, Title, WlabadiMainPageImage, BarWrapper } from "./Bar.style";
+import { Tile, Title, BarImg, BarWrapper } from "./Bar.style";
 
 import {
   wlabadiMainPage,
@@ -10,27 +10,34 @@ import {
 function Bar() {
   return (
     <BarWrapper>
-      <Wrapper>
-        <WlabadiMainPageImage src={wlabadiMainPage} />
+      <Tile>
+        <a href="www.wlabadi.com">
+          <BarImg src={wlabadiMainPage} />
+        </a>
         <Title>WlaBadi</Title>
         <p>Dog Hotel and Care Service</p>
         <h1>Technologies :</h1>
         <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
-      </Wrapper>
-      <Wrapper>
-        <WlabadiMainPageImage src={krainaPieknaMainPage} />
+      </Tile>
+      <Tile>
+        <a href="https://www.kraina-piekna.com/">
+          <BarImg src={krainaPieknaMainPage} />
+        </a>
+
         <Title>Kraina Piękna</Title>
         <p>Beauty Salon Service</p>
         <h1>Technologies :</h1>
         <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
-      </Wrapper>
-      <Wrapper>
-        <WlabadiMainPageImage src={batixMainPage} />
+      </Tile>
+      <Tile>
+        <a href="https://www.sklepbatix.net/">
+          <BarImg src={batixMainPage} />
+        </a>
         <Title>Batix</Title>
         <p>Window Decoration Web Service - ecommerce</p>
         <h1>Technologies :</h1>
         <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
-      </Wrapper>
+      </Tile>
     </BarWrapper>
   );
 }
