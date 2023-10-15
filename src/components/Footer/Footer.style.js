@@ -26,8 +26,10 @@ export const SocialsLink = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
   border: 1px solid white;
   border-radius: 50%;
+  padding: 10px;
   width: 50px;
   height: 50px;
   text-align: center;
