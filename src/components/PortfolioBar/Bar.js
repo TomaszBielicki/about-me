@@ -1,5 +1,5 @@
 import React from "react";
-import { Tile, Title, BarImg, BarWrapper } from "./Bar.style";
+import { Tile, Title, BarImg, BarWrapper, TextTileWrapper } from "./Bar.style";
 
 import {
   wlabadiMainPage,
@@ -11,32 +11,41 @@ function Bar() {
   return (
     <BarWrapper>
       <Tile>
-        <a href="www.wlabadi.com">
+        <a href="https://www.wlabadi.com" target="_blank" rel="noreferrer">
           <BarImg src={wlabadiMainPage} />
         </a>
-        <Title>WlaBadi</Title>
-        <p>Dog Hotel and Care Service</p>
-        <h1>Technologies :</h1>
-        <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
+        <TextTileWrapper>
+          <Title>WlaBadi</Title>
+          <p>Dog Hotel and Care Service</p>
+          <h1>Technologies :</h1>
+          <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
+        </TextTileWrapper>
       </Tile>
       <Tile>
-        <a href="https://www.kraina-piekna.com/">
+        <a
+          href="https://www.kraina-piekna.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BarImg src={krainaPieknaMainPage} />
         </a>
-
-        <Title>Kraina Piękna</Title>
-        <p>Beauty Salon Service</p>
-        <h1>Technologies :</h1>
-        <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
+        <TextTileWrapper>
+          <Title>Kraina Piękna</Title>
+          <p>Beauty Salon Service</p>
+          <h1>Technologies :</h1>
+          <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
+        </TextTileWrapper>
       </Tile>
       <Tile>
-        <a href="https://www.sklepbatix.net/">
+        <a href="https://www.sklepbatix.net/" target="_blank" rel="noreferrer">
           <BarImg src={batixMainPage} />
         </a>
-        <Title>Batix</Title>
-        <p>Window Decoration Web Service - ecommerce</p>
-        <h1>Technologies :</h1>
-        <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
+        <TextTileWrapper>
+          <Title>Batix</Title>
+          <p>Window Decoration Web Service - ecommerce</p>
+          <h1>Technologies :</h1>
+          <p>JavaScript, TypeScript, React, NextJS, Styled Components</p>
+        </TextTileWrapper>
       </Tile>
     </BarWrapper>
   );
