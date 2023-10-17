@@ -9,12 +9,25 @@ function Footer() {
       <p>LOGO</p>
       <Text>Living, learning, & leveling up one day at a time.</Text>
       <ButtonsWrapper>
-        <SocialsLink>
-          <GithubIcon />
-        </SocialsLink>
-        <SocialsLink>
-          <LinkedinIcon />
-        </SocialsLink>
+        <a
+          href="https://github.com/TomaszBielicki"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SocialsLink>
+            <GithubIcon />
+          </SocialsLink>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/tomasz-bielicki-b7703319b/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SocialsLink>
+            <LinkedinIcon />
+          </SocialsLink>
+        </a>
       </ButtonsWrapper>
 
       <Text>Created by Tomasz Bielicki</Text>
