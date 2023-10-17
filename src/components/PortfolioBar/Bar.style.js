@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Tile = styled.div`
-  border: 2px solid white;
-  width: 300px;
+  border: 2px solid black;
+  width: 350px;
+  color: black;
   border-radius: 10px;
   text-align: center;
-  padding: 10px;
-  height: 500px;
+  height: 600px;
 `;
 
 export const BarWrapper = styled.div`
@@ -14,11 +14,19 @@ export const BarWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
+`;
+
+export const TextTileWrapper = styled.div`
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 export const BarImg = styled.img`
-  max-width: 300px;
-  height: 200px;
+  max-width: 350px;
+  height: 250px;
   border-radius: 10px;
 `;
 
