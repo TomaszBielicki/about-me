@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
 export const ButtonsWrapper = styled.div`
   width: 20vw;
   display: flex;
+  padding: 40px;
   justify-content: space-evenly;
   flex-direction: row;
 `;
@@ -26,8 +27,10 @@ export const SocialsLink = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  border: 1px solid white;
+  cursor: pointer;
+  background-color: #6e07f3;
+  fill: white;
+  border: 3px solid white;
   border-radius: 50%;
   padding: 10px;
   width: 50px;
