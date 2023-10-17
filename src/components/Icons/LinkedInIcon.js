@@ -1,7 +1,7 @@
 const LinkedinIcon = () => {
   return (
     <svg
-      fill="#000000"
+      fill="#white"
       height="100px"
       width="100px"
       version="1.1"
