@@ -1,5 +1,11 @@
 import React from "react";
-import { SocialsLink, Wrapper, Text, ButtonsWrapper } from "./Footer.style";
+import {
+  SocialsLink,
+  Wrapper,
+  Text,
+  ButtonsWrapper,
+  IconWrapper,
+} from "./Footer.style";
 import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedInIcon";
 

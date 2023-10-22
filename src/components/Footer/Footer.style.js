@@ -18,6 +18,10 @@ export const ButtonsWrapper = styled.div`
   flex-direction: row;
 `;
 
+export const IconWrapper = styled.span`
+  width: 20px;
+  height: 20px;
+`;
 export const Text = styled.p`
   text-align: center;
   width: 200px;
@@ -28,12 +32,12 @@ export const SocialsLink = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-color: #6e07f3;
+  background-color: transparent;
   fill: white;
   border: 3px solid white;
   border-radius: 50%;
-  padding: 10px;
-  width: 50px;
-  height: 50px;
+  padding: 5px;
+  width: 47px;
+  height: 47px;
   text-align: center;
 `;
