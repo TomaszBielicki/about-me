@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-top: 2px solid white;
 
   margin-top: 30px;
 `;
@@ -22,9 +21,15 @@ export const IconWrapper = styled.span`
   width: 20px;
   height: 20px;
 `;
+
+export const LogoWrapper = styled.div`
+  display: flex;
+  padding-left: 35px;
+  width: 100%;
+`;
 export const Text = styled.p`
   text-align: center;
-  width: 200px;
+  width: 100%;
 `;
 
 export const SocialsLink = styled.div`

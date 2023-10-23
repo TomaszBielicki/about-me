@@ -4,7 +4,7 @@ import {
   Wrapper,
   Text,
   ButtonsWrapper,
-  IconWrapper,
+  LogoWrapper,
 } from "./Footer.style";
 import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedInIcon";
@@ -12,8 +12,11 @@ import LinkedinIcon from "../Icons/LinkedInIcon";
 function Footer() {
   return (
     <Wrapper>
-      <p>LOGO</p>
-      <Text>Living, learning, & leveling up one day at a time.</Text>
+      <LogoWrapper>
+        <p>LOGO</p>
+        <Text>Living, learning, & leveling up one day at a time.</Text>
+      </LogoWrapper>
+
       <ButtonsWrapper>
         <a
           href="https://github.com/TomaszBielicki"
