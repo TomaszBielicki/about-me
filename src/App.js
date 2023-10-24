@@ -3,11 +3,11 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Potrfolio from "./components/Portfolio/Potrfolio";
 import styled from "styled-components";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 const Wrapper = styled.div`
   font-family: "Raleway", sans-serif;
   color: white;
-  padding-bottom: 50px;
   background: #6e07f3;
   /*hsla(0, 0%, 3%, 1);
 
@@ -33,6 +33,7 @@ const Wrapper = styled.div`
 function App() {
   return (
     <Wrapper>
+      <Header />
       <NavBar />
       <AboutMe />
       <Potrfolio />

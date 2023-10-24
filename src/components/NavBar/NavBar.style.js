@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   font-family: "eurostile", sans-serif;
   text-align: center;
   width: 100vw;
-  padding-top: 50px;
+  padding-top: 150px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: white;
