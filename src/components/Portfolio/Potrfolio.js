@@ -3,7 +3,7 @@ import Bar from "../PortfolioBar/Bar";
 import { Wrapper } from "./Portfolio.style";
 function Potrfolio() {
   return (
-    <Wrapper>
+    <Wrapper id="3">
       <Bar />
     </Wrapper>
   );

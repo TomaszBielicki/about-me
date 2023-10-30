@@ -9,14 +9,10 @@ import {
   MainPageWrapper,
 } from "./NavBar.style";
 
-//import { mfAvatar } from "assets";
-
-import { mfAvatar } from "../../assets";
-
 function NavBar() {
   return (
     <>
-      <Wrapper>
+      <Wrapper id="1">
         <MainPageWrapper>
           <Title>Designer, Frontend Developer</Title>
           <Text>

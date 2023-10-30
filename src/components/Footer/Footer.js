@@ -5,7 +5,7 @@ import LinkedinIcon from "../Icons/LinkedInIcon";
 
 function Footer() {
   return (
-    <Wrapper>
+    <Wrapper id="4">
       <Text>Living, learning, & leveling up one day at a time.</Text>
 
       <ButtonsWrapper>

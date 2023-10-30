@@ -3,7 +3,7 @@ import { Wrapper, Title, Text } from "./AboutMe.style";
 
 function AboutMe() {
   return (
-    <Wrapper>
+    <Wrapper id="2">
       <Title>Hi, I’m Tom. Nice to meet you. </Title>
       <Text>
         Since beginning my journey as a freelance designer over 11 years ago,
