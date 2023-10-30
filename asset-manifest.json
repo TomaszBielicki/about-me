@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/about-me/static/js/main.778fb332.js",
+    "static/media/krainaPieknaMainPage.png": "/about-me/static/media/krainaPieknaMainPage.aca8c98610f17904b2fa.png",
+    "static/media/batixMainPage.png": "/about-me/static/media/batixMainPage.78899272b33d57fbcb59.png",
+    "static/media/wlabadiMainPage.png": "/about-me/static/media/wlabadiMainPage.9e5d676cd574d5f4eb46.png",
+    "static/media/heroDevices.svg": "/about-me/static/media/heroDevices.ca82e97c349a897082b6268dd7f8d733.svg",
+    "static/media/mfAvatar.svg": "/about-me/static/media/mfAvatar.7b735e86b418292c156bc9a26437d951.svg",
+    "index.html": "/about-me/index.html",
+    "main.778fb332.js.map": "/about-me/static/js/main.778fb332.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.778fb332.js"
+  ]
+}
